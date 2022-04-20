@@ -1,0 +1,8 @@
+CRITICAL - 2022-04-19 10:41:11 --> Undefined property: App\Controllers\Wilayah::$kategori
+#0 C:\xampp\htdocs\ino\app\Controllers\Wilayah.php(150): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 150, Array)
+#1 C:\xampp\htdocs\ino\system\CodeIgniter.php(832): App\Controllers\Wilayah->formedit('73847')
+#2 C:\xampp\htdocs\ino\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Wilayah))
+#3 C:\xampp\htdocs\ino\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ino\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\ino\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
